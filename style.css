@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  height: 2000px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+}
+
+nav .logo {
+  float: left;
+}
+
+nav .logo img {
+  width: 100px;
+}
+
+nav .links {
+  float: right;
+}
+
+nav .links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.5s color;
+  text-transform: capitalize;
+}
+
+nav .links a:hover {
+  color: #09c;
+}
+
+.clr {
+  clear: both;
+}
+
+.header-nav {
+  background-color: teal;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+
+.header-nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s color;
+}
+
+.header-nav a:hover {
+  color: tomato;
+}
+
+p {
+  width: 600px;
+  margin: auto;
+  padding-block: 100px;
+}
